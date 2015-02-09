@@ -23,6 +23,47 @@ nav {
 
 }
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    overflow: hidden;
+    font-family: "Dosis", Calibri, sans-serif; 
+    font-weight: bold;   
+    color: white;
+    font-size: 150%;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    text-align: center;
+    width: 180px;
+}
+
+
+a:link {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
 #content {
 	position: absolute;
     background-color: #EEEEEE;
@@ -64,43 +105,3 @@ nav {
 	display: inline-block;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-    overflow: hidden;
-	font-family: "Dosis", Calibri, sans-serif; 
-	font-weight: bold;   
-	color: white;
-	font-size: 25px;
-}
-
-li {
-	float: left;
-}
-
-a {
-	display: block;
-	text-align: center;
-	width: 180px;
-}
-
-
-a:link {
-    color: #EEEEEE;
-    text-decoration: none;
-}
-
-a:visited {
-	color: #EEEEEE;
-	text-decoration: none;
-}
-
-a:hover {
-	color: black;
-}
-
-a:active {
-    color: #EEEEEE;
-    text-decoration: none;
-}
