@@ -87,11 +87,12 @@ a {
 
 
 a:link {
+    color: #EEEEEE;
     text-decoration: none;
 }
 
 a:visited {
-	color: inherit;
+	color: #EEEEEE;
 	text-decoration: none;
 }
 
@@ -100,5 +101,6 @@ a:hover {
 }
 
 a:active {
+    color: #EEEEEE;
     text-decoration: none;
 }
