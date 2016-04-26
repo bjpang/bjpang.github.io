@@ -1,0 +1,40 @@
+@import url('http://fonts.googleapis.com/css?family=Dosis');
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
+
+
+#travel-container{
+    width: 80%;
+    left: calc(50% - 40%);
+    position: absolute;
+}
+
+p {
+    font-family: "Dosis", Calibri, sans-serif; 
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 8%;
+
+}
+
+#picture-grid{
+    list-style: none;
+    text-align: center;
+}
+
+#picture-grid li{
+    display: inline-block;
+}
+
+.picture-grid-box{
+    width: 300px;
+    height: 300px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), -4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+
+}
+
+.picture-grid-box img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
